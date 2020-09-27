@@ -76,7 +76,7 @@ KERNEL=kernel7l
 make bcm2711_defconfig
 ```
 
-##### If on the Raspberry Pi OS (64-bit)
+##### If on the Raspberry Pi OS (64-bit) beta
 
 ###### Raspberry Pi 3, Pi 3+, and Compute Module 3 default build configuration
 
@@ -118,7 +118,7 @@ sudo cp arch/arm/boot/dts/overlays/README /boot/overlays/
 sudo cp arch/arm/boot/zImage /boot/$KERNEL.img
 ```
 
-#### If on the Raspberry Pi OS (64-bit)
+#### If on the Raspberry Pi OS (64-bit) beta
 **Note**: The 64-bit kernel is in "Image" vs "zImage"
 ```bash
 make -j4 Image modules dtbs
